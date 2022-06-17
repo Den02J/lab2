@@ -1,0 +1,41 @@
+.CalendarRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CalendarHeader {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CalendarCell {
+    padding: 4px;
+    width: 38px;
+    height: 38px;
+    margin: 2 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CalendarDayCell {
+    cursor: pointer;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.CalendarDayCell:not(.CalendarDayCellSelected):hover {
+    background-color: #e9e9e9;
+}
+
+.CalendarDayCell:active {
+    background-color: #d1d1d1;
+}
+
+
+.CalendarDayCellSelected {
+    background-color: #000000;
+    color: #fff;
+}

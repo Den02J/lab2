@@ -1,0 +1,25 @@
+.Selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 42px;
+
+    border-bottom: 1px solid #b3b3b3;
+    margin-bottom: 8px;
+}
+
+.SelectorIcon {
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SelectorIcon:hover {
+    background-color: #e0e0e0;
+}
